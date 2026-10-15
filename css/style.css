@@ -1,0 +1,399 @@
+/* all common css start here*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+ul,ol {
+    list-style-type: none;
+}
+/* all common css ends here */
+
+/* headerpart stars here*/
+.headerpart{
+    padding-top: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.container{
+    padding: 20px;
+    margin: 0 auto;
+    /* background: green; */
+    width: 1120px;
+}
+.menu ul{
+    display: flex;
+    gap: 71px;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn a {
+    padding: 18px 35px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+ }
+.menu ul li a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #474747;
+
+}
+.menubtn{
+    display: flex;
+    gap: 51px;
+}
+/* headerpart ends here*/
+
+/* bannerpart starts here*/
+.bannerpart{
+    padding-top: 250px;
+    background-image: url(../images/Group\ 3990.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+.bannercontent h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+.bannercontent h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.bannercontent p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    width: 585px;
+}
+.contenttimgflex{
+    display: flex;
+    gap: 165px;
+    align-items: center;
+}
+.btn{
+    padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 17px;
+    padding-right: 17px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color:#FFFFFF ;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+
+}
+.bannerbtn{
+    margin-top: 30px;
+    gap: 30px;
+    display: flex;
+}
+.btn .gap {
+    margin-right: 10px;
+}
+.btn:hover{
+    border: 1px solid #FD6E0A;
+    background: transparent;
+    color: #FD6E0A;
+}
+    /* hire me btn start */
+.btnn{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color:#FFFFFF ;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+
+}
+.btnn:hover{
+    border: 1px solid #FD6E0A;
+    background: transparent;
+    color: #FD6E0A;
+}
+   /* hire me btn ends here */
+
+.menu ul li a:hover{
+    color: #FD6E0A;
+    transition: .4s;
+}
+/* banner part ends here */
+
+/* aboutpart start here*/
+.aboutpart{
+    margin: 130px 0;
+    background:white;
+}
+.about{
+    padding: 131px 157px;
+    background: #FFF8F3;
+}
+.aboutcontent{
+    text-align: center;
+}
+.aboutcontent h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;   
+}
+.aboutcontent p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height:30px ;
+    color: #757575;
+    width: 800px;
+    margin: 0 auto;
+}
+.aboutbio{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    text-align: center;
+}
+.aboutbio p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height:30px ;
+    color: #757575;
+}
+.aboutbio h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height:30px ;
+    color: #474747;
+}
+/* about part ends here */
+
+/* what i do part starts here */
+.whatidopart{
+    margin-top: 130px;
+}
+.whatido{
+    margin-bottom: 50px;
+}
+.whatidocontent h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.whatidocontent p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height:30px ;
+    color: #757575;
+    margin: 0 auto;
+    text-align: center;
+    width: 906px;
+}
+    /* cardsection start */
+
+.cardsection{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 130px;
+}
+.java{
+    padding: 32px;
+    background: white;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.java h4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+}
+.java p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+    /* cardsection ends */
+/* what i do part ends here */
+
+/* Resume part start here */
+.flex{
+    display: flex;
+    gap: 71px;
+}
+.flex hr {
+    color: #D1D1D1;
+}
+.flex .education h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.flex .education h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.flex .education h5 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.flex .education p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    width: 498px;
+    color: #757575;
+}
+.resume h2{
+    text-align: center;
+    margin-bottom: 113px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+.button{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+/* Resume part ends here */
+
+/* footer part start here */
+.footerpart{
+    background:#FFF8F3;
+    padding: 130px 0;
+}
+.footer{
+    display: flex;
+}
+.footer .left{
+    width: 50%;
+}
+.footer .left h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px; 
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer .left p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    width: 543px;
+    margin-bottom: 30px;
+}
+.socialicon{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.socialicon a i {
+    color: #FD6E0A;
+    font-size: 30px;
+}
+.footer .right{
+    width: 50%;
+}
+.footer .right h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 28px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    /* gap: 24px; */
+}
+.inputcommon{
+    display: block;
+    width: 461px;
+    padding: 18px 0 18px 30px;
+    background: white;
+    margin-bottom: 24px;
+    border: none;
+    outline: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    border-radius: 5px;
+}
+.footerbtn{
+    
+    padding-top: 18px;
+    padding-bottom: 19px;
+    padding-left: 39px;
+    padding-right: 39px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color:#FFFFFF ;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+    display: inline-block;
+}
+.footerbtn:hover{
+    border: 1px solid #FD6E0A;
+    background: transparent;
+    color: #FD6E0A;
+}
+/* footer part ends here */
